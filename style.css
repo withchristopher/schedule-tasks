@@ -1,0 +1,79 @@
+
+/* Styling the calender elements*/
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+  font-size: 1.3vw;
+  line-height: 1;
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: white;
+  border-left: 1px solid black;
+  padding: 1.5vw;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 0.5vw solid black;
+}
+
+.time-row {
+  text-align: center;
+  border-radius: 2.2vw;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+  padding-top: 10px;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: rgb(97, 79, 186);
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+}
+/* The following section changes the colors of the rows depending on the current hour*/
+.past {
+  background-color: #575050;
+  color: black;
+}
+
+.present {
+  background-color: #c64a07;
+  color: white;
+}
+
+.future {
+  background-color: #049f70;
+  color: white;
+}
